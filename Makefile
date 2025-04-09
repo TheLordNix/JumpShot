@@ -1,0 +1,2 @@
+all:
+	g++ -I src/include -I headerCode -L src/lib -o main mainCode/main.cpp mainCode/gun.cpp mainCode/renderWindow.cpp mainCode/entity.cpp mainCode/wall.cpp mainCode/obstacle.cpp mainCode/spikeBall.cpp mainCode/powerUP.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf
